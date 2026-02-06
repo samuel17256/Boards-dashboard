@@ -117,14 +117,17 @@ nav a {
 }
 
 .sidebar-image {
-  display: flex;
-  justify-content: space-between;
   background-color: #fff;
-  flex-direction: row;
   border: 1px solid #dadee6;
-  padding: 10px 0;
-  align-items: center;
   border-radius: 12px;
+  width: 340px;
+}
+
+.sidebar-image-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sidebar-img {
@@ -440,7 +443,7 @@ nav a {
 }
 
 .child3 {
-  border-bottom: 1px solid #1f2633;
+  border-bottom: 1px solid #dadee6;
 }
 
 .dev-card {
@@ -557,6 +560,7 @@ select {
   border: 1px solid #e3e5e9;
   border-radius: 4px;
   font-size: 16px;
+  color: #878d97;
   background-color: #fff;
   border-radius: 10px;
   outline: none;
